@@ -12,7 +12,7 @@ We assume you are comfortable with command-line interface (on Linux or Mac). In 
 
 Most of our work will be saved and shared on github in public or private repositories. If you have not used git in the past, please follow the [instructions here for a 5 minutes git tutorial](https://wanggroup.org/orientation/5m-git).
 
-As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, add your name to the Markdown file named `hello.md`, commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
+As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository and clone to your computer. Then add your name to the Markdown file named `hello.md` and commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
 
 ### Markdown and shell
 
@@ -26,7 +26,7 @@ You would need to have [jupyter notebook](https://jupyter.org) installed to run 
 
 You can either install jupyter notebook directly or install other tools such as [anaconda](https://www.anaconda.com/download) or [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). As long as you can run a jupyter notebook, you are good to go!
 
-After you setup the computing environment, please download all notebooks under folder `notebook/` and the toy data under `data/` on your own computer and put your name in the filename as `FineMapping_JohnSmith.ipynb` and `MendelianRandomization_JohnSmith.ipynb`. If you have extra time and energy for the bonus notebook, rename `UKBBdataAnalysis.ipynb` too. 
+After you setup the computing environment, please put your name in the notebook filenames such as `FineMapping_JohnSmith.ipynb` and `MendelianRandomization_JohnSmith.ipynb`. If you have extra time and energy for the bonus notebook, rename `UKBBdataAnalysis.ipynb` too. 
 
 ## Task 2: Fine mapping analysis to identify true causal variant in complex traits
 
