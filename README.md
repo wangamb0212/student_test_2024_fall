@@ -6,7 +6,7 @@ You may generally write in one or two languages we mentioned above, but we belie
 
 ## Task 1: Unix command shell and install softwares
 
-We assume you are comfortable with command-line interface (on Linux or Mac). In this task you are going to work with git from command shell, set up the computing environment, and install basic softwares and packages needed for data analysis of Tasks 2 and 3.
+We assume you are comfortable with command-line interface (on Linux or Mac). In this task you are going to work with `git` from command shell, set up the computing environment, and install basic softwares and packages needed for data analysis of Tasks 2-4.
 
 ### Git
 
@@ -22,15 +22,15 @@ In the same markdown file, the second section would be your answers to the quest
 
 ### Install softwares and setup computing environment
 
-We strongly encourage you to setup the computing environment through `micromamba` with the instructions [here](https://wanggroup.org/orientation/jupyter-setup). If you succesfully follow it up to install the `pisces-rabbit` part, then you don't need to install `SoS`, `jupyter notebook` and `R/Python` manually.
+You would need to have [jupyter notebook](https://jupyter.org) installed to run the analysis, and the two main notebooks are both in [`R`](https://www.r-project.org) (task 2 and 3). Task 4 is a [`Python`](https://www.python.org/downloads/) notebook that is optional.
 
-If you fail to install through `micromamba`, you shall install [`SoS`](https://vatlab.github.io/sos-docs/running.html#SoS-Workflow) (simply type `pip install sos` in the terminal to install, or, check out here for [alternative installation methods](https://vatlab.github.io/sos-docs/running.html#Local-installation) if you have troubles with that command), [`jupyter notebook`](https://jupyter.org/install) and you will need [`R`](https://www.r-project.org) and [`Python`](https://www.python.org/downloads/) as well.
+You can either install jupyter notebook directly or install other tools such as [anaconda](https://www.anaconda.com/download) or [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). As long as you can run a jupyter notebook, you are good to go!
 
-After you setup the computing environment (if in `micromamba`, remember to activate the `pisces-rabbit` environment first), please download both notebooks under folder `notebook/` and the toy data under `data/` on your own computer and put your name in the filename as `finemapping_JohnSmith.ipynb` and `data_analysis_sos_JohnSmith.ipynb`. 
+After you setup the computing environment, please download all notebooks under folder `notebook/` and the toy data under `data/` on your own computer and put your name in the filename as `FineMapping_JohnSmith.ipynb` and `MendelianRandomization_JohnSmith.ipynb`. If you have extra time and energy for the bonus notebook, rename `UKBBdataAnalysis.ipynb` too. 
 
-## Task 2: Statistical genetics in `R`
+## Task 2: Fine mapping analysis to identify true causal variant in complex traits
 
-The first notebook, `notebook/finemapping.ipynb` is an exercise with the `susieR` package in R. This is somewhat advanced material for those who has a background in statistical genetics.
+The first notebook, `notebook/FineMapping.ipynb` is an exercise with the `susieR` package in R. This is somewhat advanced material for those who has a background in statistical genetics.
 
 ### Summary of the SuSiE method
 Please add another section in the notebook after where you put your name, and make the section title "Summary of the SuSiE method". Then take a read at [this paper](https://academic.oup.com/jrsssb/article/82/5/1273/7056114) before you run this notebook to know some basic concepts that we might mention in the notebook. Please then summarise the SuSiE method in a paragraph and describe what it does. You are supposed to summarize it yourself instead of copying content from the abstract directly. You can start the summary after reading the paper but you may also understand it better after you run the notebook. Feel free to come back and edit this section any time.
@@ -41,17 +41,17 @@ Please note that you can use ChatGPT or other tools to help you understand the m
 
 Please follow the instructions in the notebook, and run all the cells. Answer the questions within the notebook directly and keep the code (that you use to get the answer) instead just leaving the answer there.
 
-### Problem solving
 
-During the process of running the notebook, you can take some notes and put them into a new section at the end of the notebook, where you can share with us any problem you have and how you solve it (for example, by some QA page on [Stack Overflow](https://stackoverflow.com) or simply get the answer from ChatGPT. 
+## Task 3: Two-sample Mendelian Randomization
 
-## Task 3: Data analysis in a `SoS` notebook
+The second notebook, `notebook/MendelianRandomization.ipynb` is an exercise with the `MendelianRandomization` package in R. In this notebook you will find fewer example code and to go through the analysis you would need to write many code on your own. Feel free to use ChatGPT or any tool you can find, but again please be sure you understand what you are doing there. The concepts of MR are relatively easy to follow, and at the end of the notebook there is an bonus question where you can visualize the results. Please follow the instructions in the notebook and answer the questions with the code. 
 
-The second notebook, `notebook/data_analysis_sos.ipynb` is an exercise that cleans a toy data set based on the UKBB, and some analysis on the polygenic risk score (PRS). It involves coding in `Python` in a `SoS` notebook. In a sos notebook, you can run different kernels for different cells. Please follow the instructions in the notebook and remember to add your name at the beginning of the notebook if you haven't done so.
 
-Feel free to share anything at the end of the notebook as well as you just did for the `notebook/finemapping.ipynb`.
+## Task 4 (optional): Data analysis in a `Python` notebook
 
-## Task 4: Report your work and submission
+The second notebook, `notebook/UKBBdataAnalysis.ipynb` is an exercise that cleans a toy data set based on the UKBB, and some analysis on the polygenic risk score (PRS). It involves coding in `Python` but we provide most of the code required to run the analysis.
+
+## Task 5: Report your work and submission
 
 Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball for the markdown file and two notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email title as "Complex Traits Research Assistant Application: Exercise Submission".
 
