@@ -1,12 +1,12 @@
 # Introduction
 
-This tutorial & exercise, developed in 2024, is designed for trainees interested in joining the lab directed by Dr. Suzanne Leal in [Center for Statistical Genetics at Columbia University](https://www.neurology.columbia.edu/research/research-centers-and-programs/center-statistical-genetics#:~:text=We%20are%20a%20group%20of,statistical%20genetics%20and%20genetic%20epidemiology.). It reflects our expectation of your computing skills with R, Python, and Linux shell commands, and hopefully your ability to learn new tools in bioinformatics and related fields as well. In completing these exercises, you will first set up the computational environment on your computer then perform some small scale data analysis using test data. However, it is important to point out that after joining the lab, most of the research requires access to high performance computing cluster in Linux, on large-scale data such UKBiobank and All of Us data.
+This tutorial & exercise, developed in 2024, is designed for trainees interested in joining the lab directed by Dr. Suzanne Leal in [Center for Statistical Genetics at Columbia University](https://www.neurology.columbia.edu/research/research-centers-and-programs/center-statistical-genetics#:~:text=We%20are%20a%20group%20of,statistical%20genetics%20and%20genetic%20epidemiology.). It reflects our expectation of your computing skills with R and Linux shell commands, and hopefully your ability to learn new tools in bioinformatics and related fields as well. In completing these exercises, you will first set up the computational environment on your computer then perform some small scale data analysis using test data. However, it is important to point out that after joining the lab, most of the research requires access to high performance computing cluster in Linux, on large-scale data such UKBiobank and All of Us data.
 
 You may generally write in one or two languages we mentioned above, but we believe that the learning curve for things you are not that familiar with (but required in this exercise) is reasonable. You are encouraged to search online for learning new tools, and even to ask ChatGPT if necessary, as the ability to search for answers and solve the questions itself is also required in our lab. However, if there is a blocker as you go through the material, please do not hesitate to contact me (Rui Dong, rd2972@cumc.columbia.edu). (When you do so, please describe your question clearly and provide all the information necessary for us to help you.)
 
 ## Task 1: Unix command shell and install softwares
 
-We assume you are comfortable with command-line interface (on Linux or Mac). In this task you are going to work with `git` from command shell, set up the computing environment, and install basic softwares and packages needed for data analysis of Tasks 2-4.
+We assume you are comfortable with command-line interface (on Linux or Mac). In this task you are going to work with `git` from command shell, set up the computing environment, and install basic softwares and packages needed for data analysis of Tasks 2-3.
 
 ### Git
 
@@ -22,11 +22,11 @@ In the same markdown file, create a second section with your answers to the ques
 
 ### Install softwares and setup computing environment
 
-You will need to have [jupyter notebook](https://jupyter.org) installed to run the analysis, and the two main notebooks are both in [`R`](https://www.r-project.org) (task 2 and 3). Task 4 is a [`Python`](https://www.python.org/downloads/) notebook that is optional.
+You will need to have [jupyter notebook](https://jupyter.org) installed to run the analysis, and the two main notebooks are both in [`R`](https://www.r-project.org) (task 2 and 3).
 
 You can either install jupyter notebook directly or install other tools such as [anaconda](https://www.anaconda.com/download) or [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). As long as you can run a jupyter notebook, you are good to go!
 
-After you setup the computing environment, please append your name to the notebook filenames such as `FineMapping_JohnSmith.ipynb` and `MendelianRandomization_JohnSmith.ipynb`. If you have extra time and energy for the bonus notebook, rename `UKBBdataAnalysis.ipynb` too. 
+After you setup the computing environment, please append your name to the notebook filenames such as `FineMapping_JohnSmith.ipynb` and `MendelianRandomization_JohnSmith.ipynb`.
 
 ## Task 2: Fine mapping analysis to identify true causal variant in complex traits
 
@@ -47,11 +47,7 @@ Please follow the instructions in the notebook, and run all the cells. Answer th
 The second notebook, `notebook/MendelianRandomization.ipynb` is an exercise with the `MendelianRandomization` package in R. In this notebook you will find fewer examples of code. To go through the analysis you will need to write more of the code on your own. Feel free to use ChatGPT or any tool you can find, but again please be sure you understand what you are doing here. The concepts of Mendelian Randomization are relatively easy to follow, and at the end of the notebook there is an bonus question where you can visualize the results. Please follow the instructions in the notebook and answer the questions with the code. 
 
 
-## Task 4 (optional): Data analysis in a `Python` notebook
-
-The last notebook, `notebook/UKBBdataAnalysis.ipynb` is an exercise that cleans a toy data set based on the UKBB, and performs some analysis on the polygenic risk score (PRS). It involves coding in `Python` but we provide most of the code required to run the analysis.
-
-## Task 5: Report your work and submission
+## Task 4: Report your work and submission
 
 Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball of the markdown file and two (or three) notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email title as "Complex Traits Research Assistant Application: Exercise Submission".
 
