@@ -49,7 +49,7 @@ The second notebook, `notebook/MendelianRandomization.ipynb` is an exercise with
 
 ## Task 4 (optional): Data analysis in a `Python` notebook
 
-The second notebook, `notebook/UKBBdataAnalysis.ipynb` is an exercise that cleans a toy data set based on the UKBB, and performs some analysis on the polygenic risk score (PRS). It involves coding in `Python` but we provide most of the code required to run the analysis.
+The last notebook, `notebook/UKBBdataAnalysis.ipynb` is an exercise that cleans a toy data set based on the UKBB, and performs some analysis on the polygenic risk score (PRS). It involves coding in `Python` but we provide most of the code required to run the analysis.
 
 ## Task 5: Report your work and submission
 
