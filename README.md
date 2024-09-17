@@ -49,6 +49,6 @@ The second notebook, `notebook/MendelianRandomization.ipynb` is an exercise with
 
 ## Task 4: Report your work and submission
 
-Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball of the markdown file and two (or three) notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email title as "Complex Traits Research Assistant Application: Exercise Submission".
+Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball of the markdown file and two notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email title as "Complex Traits Research Assistant Application: Exercise Submission".
 
 
