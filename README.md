@@ -2,7 +2,7 @@
 
 This tutorial & exercise, developed in 2024, is designed for trainees interested in joining the lab directed by Dr. Suzanne Leal in [Center for Statistical Genetics at Columbia University](https://www.neurology.columbia.edu/research/research-centers-and-programs/center-statistical-genetics#:~:text=We%20are%20a%20group%20of,statistical%20genetics%20and%20genetic%20epidemiology.). It reflects our expectation of your computing skills with R and Linux shell commands, and hopefully your ability to learn new tools in bioinformatics and related fields as well. In completing these exercises, you will first set up the computational environment on your computer then perform some small scale data analysis using test data. However, it is important to point out that after joining the lab, most of the research requires access to high performance computing cluster in Linux, on large-scale data such UKBiobank and All of Us data.
 
-You may generally write in one or two languages we mentioned above, but we believe that the learning curve for things you are not that familiar with (but required in this exercise) is reasonable. You are encouraged to search online for learning new tools, and even to ask ChatGPT if necessary, as the ability to search for answers and solve the questions itself is also required in our lab. However, if there is a blocker as you go through the material, please do not hesitate to contact me (Rui Dong, rd2972@cumc.columbia.edu). (When you do so, please describe your question clearly and provide all the information necessary for us to help you.)
+Applicants are recommended to have experience with one or both of the languages we mentioned above, but we believe that the learning curve for things you are not that familiar with (but required in this exercise) is reasonable. You are encouraged to search online for learning new tools, and even to ask ChatGPT if necessary, as the ability to search for answers and solve problems itself is also required in our lab. However, if you run into a major issue as you go through the material, please do not hesitate to contact me (Rui Dong, rd2972@cumc.columbia.edu). (When you do so, please describe your question clearly and provide all the information necessary for us to help you.)
 
 ## Task 1: Unix command shell and install softwares
 
@@ -49,6 +49,6 @@ The second notebook, `notebook/MendelianRandomization.ipynb` is an exercise with
 
 ## Task 4: Report your work and submission
 
-Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball of the markdown file and two notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email title as "Complex Traits Research Assistant Application: Exercise Submission".
+Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. After you have completed all the tasks above, please make a tarball of the markdown file and two notebooks and email it to `rd2972@cumc.columbia.edu` for us to review. Please make the email subject as "Complex Traits Research Assistant Application: Exercise Submission".
 
 
